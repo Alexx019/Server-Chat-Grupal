@@ -24,11 +24,11 @@ Para ejecutar el "Server y Chat Grupal" en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio en tu máquina local usando `git clone [URL del Repositorio]`.
 2. Asegúrate de tener Python instalado en tu sistema. Este proyecto ha sido desarrollado con Python 3.11
-3. Navega hasta la carpeta del proyecto y ejecuta `server.py` para iniciar el servidor.
-4. Abre otra terminal y ejecuta `GUI_chat.py` para iniciar la interfaz de usuario del cliente y conectarte al servidor. Puedes iniciar tantos clientes como desees de la misma manera.
+3. Navega hasta la carpeta `dist` del proyecto y ejecuta `server.exe` para iniciar el servidor.
+4. Abre otra terminal y ejecuta `GUI_chat.exe` para iniciar la interfaz de usuario del cliente y conectarte al servidor. Puedes iniciar tantos clientes como desees de la misma manera.
 5. Una vez conectado, puedes comenzar a enviar y recibir mensajes en el chat grupal.
 
-Si quieres hacer pruebas desde la terminal, en vez de `GUI_chat.py`, podeis ejecutar `cliente_emisor.py` para solo enviar al server o `cliente_receptor.py` que solo recibe lo que cualquier otro envía.
+Si quieres hacer pruebas desde la terminal, en vez de `GUI_chat`, podeis ejecutar `cliente_emisor.py` para solo enviar al server o `cliente_receptor.py` que solo recibe lo que cualquier otro envía.
 
 ## Contribuciones
 
